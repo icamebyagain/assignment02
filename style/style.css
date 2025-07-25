@@ -14,7 +14,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
+main{
+    max-width: 1140px;
+    margin: 120px auto;
 
+}
 
 .noto {
   font-family: "Noto Serif", serif;
@@ -63,7 +67,7 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     max-width: 1140px;
-    height: 71px;
+    /* height: 71px; */
     margin: 120px auto;
 }
 .banner-title{
@@ -88,6 +92,81 @@
     max-width: 100%;
     height: 335px;
 }
+
+
+/* Our Plants style */
+
+.plants-title{
+    font-size: 50px;
+    font-weight: bold;
+    max-width: 1140px;
+    margin-bottom: 16px;
+    
+}
+
+.plants-desc{
+    font-size: 22px;
+    color: var(--txp-cl);
+    max-width: 888px;
+    margin: 0 auto;
+    margin-top: O;
+}
+
+.our-plants{
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+/* CARDS */
+.plant-img{
+    margin-bottom: 30px;
+
+}
+
+.pd-text{
+ text-align: center;
+}
+
+.plant-card{
+    max-width: 270px;
+    gap: 30px;
+}
+
+.card-title{
+ margin: 0;
+ font-size: 22px;
+ font-weight: 400;
+}
+
+.card-price{
+    font-size: 22px;
+    font-weight: bold;
+}
+.btn{
+    background-color: #E95A08;
+    width:100%;
+    font-size: 16px;
+    color: white;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    border: none;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: #d56726;
+   
+
+}
+
+.plant-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+
+
 
 
 
@@ -116,11 +195,13 @@
 
 }
 /* banner */
-.banner{
+.banner {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin-top: 0;
+    
 }
+
 
 .banner-title{
     font-size: 24px;
@@ -144,4 +225,15 @@
     display: block;
 }
 
+.plant-cards{
+    max-width: 171px;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    
 }
+.plant-card img {
+    max-width: 171px;
+    gap: 20px;
+}
+
+ }
