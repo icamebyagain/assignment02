@@ -1,0 +1,90 @@
+/* shared styles and fonts */
+:root {
+    --cl-org: #E95A08; 
+    --bg-cl: rgba(0, 0, 0, 0.5);
+    --txp-cl: #8987A1;
+
+}
+
+.light-grey{
+    color: var(--txp-cl)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+.noto {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/*  nav- bar styles  */
+.nav-bar{
+    max-width: 1140px;
+    max-height: 71px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.nav-links a{
+    
+    text-decoration: none;
+}
+.nav-links{
+    display: grid;
+    grid-auto-flow: column; 
+    gap: 48px;
+    max-width: 415px;
+    max-height: 60px;
+}
+
+.cart-d{
+    color: black;
+}
+
+
+
+
+
+
+/* respopnsive */
+/* phone-device */
+@media screen and (max-width:576px)
+ {
+    /* *{
+        box-sizing: border-box;
+    } */
+    .hide{
+        display: none;
+}
+.nav-bar{
+    max-width: 361px;
+    max-height: 38px;
+    margin-top: 13px;
+    margin: 13px 16px ;
+}
+.logo{
+    width: 100%;            
+    max-width: 63px;        
+    height: auto;         
+    padding: 0;         
+    display: block
+
+}
+
+}
