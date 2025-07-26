@@ -378,6 +378,7 @@ main {
 
     /* footer */
     .footer-email{
+        margin-bottom: 50px ;
         width: 100%;
         height: 275px;
     }
