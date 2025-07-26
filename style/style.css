@@ -340,7 +340,7 @@ main {
 }
 .footer-end{
     max-width:1120px;
-    margin: 50px 160px;
+    margin: 50px auto;
 }
 .ft-left img{
     width: 135px; height: 82px;
