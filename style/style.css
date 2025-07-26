@@ -282,6 +282,92 @@ main {
 }
 
 
+
+
+/* footer styles */
+
+
+.footer-email {
+    background-image: url("../image/news-letter-bg.png");
+    max-width: 1440px;
+    /* background-repeat: no-repeat; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    height: 533px;
+}
+
+.colourful-title{
+
+     color: white; 
+     font-size: 50px; 
+     font-weight: 600;
+}
+.input-bar {
+    max-width: 830px;
+    display: flex;
+    align-items: center;
+    gap: 0;
+
+}
+
+.input-bar input {
+
+    width: 644px;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 16px;
+    border: none;
+
+}
+
+.btn-sub {
+    width: 186px;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    background-color: var(--cl-org);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn-sub:hover {
+    background-color: #d56726;
+    zoom: 105%;
+}
+.footer-end{
+    max-width:1120px;
+    margin: 50px 160px;
+}
+.ft-left img{
+    width: 135px; height: 82px;
+}
+
+.footer-end{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-icons img{
+    margin-left: 24px;
+    height: 36px;
+    width: 36px;
+}
+.footer-list{
+    list-style: none;
+    margin-bottom: 32px;
+    
+    
+}
+.footer-list a {
+    text-decoration: none;
+    color: var(--txp-cl);
+}
+
+
+
 /* respopnsive */
 /* phone-device */
 @media screen and (max-width:576px) {
@@ -289,6 +375,42 @@ main {
     /* *{
         box-sizing: border-box;
     } */
+
+    /* footer */
+    .footer-email{
+        width: 100%;
+        height: 275px;
+    }
+    .input-bar input {
+
+    width: 218px;
+    }
+    .btn-sub {
+    width: 103px;
+    }
+    .colourful-title{
+        font-size: 20px;
+    }
+
+    /* footer End */
+
+    .footer-end{
+        flex-direction: column;
+        align-items: first baseline;
+        margin: 0;
+    }
+    
+    .footer-end ul {
+    padding-left: 0;
+    /* margin-left: 0; */
+}
+
+.footer-end li {
+    margin-bottom: 50px;
+}
+
+
+
     .hide {
         display: none;
     }
@@ -383,12 +505,16 @@ main {
 
     .small,
     .lg {
-        width: 100% ;
+        width: 100%;
         height: 184px;
-       
+
     }
 
-    .small a, .left-title, .right-title, .lg a{
+    .small a,
+    .left-title,
+    .right-title,
+    .lg a {
         font-size: 16px;
     }
 }
+
